@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3902CE172837327400AB95CE /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902CE162837327400AB95CE /* ExpenseView.swift */; };
+		3902CE192837360F00AB95CE /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902CE182837360F00AB95CE /* Expense.swift */; };
+		394887BC282B870A0008B340 /* TravoilaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394887BB282B870A0008B340 /* TravoilaApp.swift */; };
+		394887BE282B870A0008B340 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394887BD282B870A0008B340 /* ContentView.swift */; };
+		394887C0282B870A0008B340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394887BF282B870A0008B340 /* Assets.xcassets */; };
+		394887C3282B870A0008B340 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394887C2282B870A0008B340 /* Preview Assets.xcassets */; };
+		394887CB282B872E0008B340 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394887CA282B872E0008B340 /* OnBoardingView.swift */; };
+		39B6F6092834A14100F8B78C /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B6F6082834A14100F8B78C /* Trip.swift */; };
+		39B6F60B2834BB8600F8B78C /* Allocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B6F60A2834BB8600F8B78C /* Allocation.swift */; };
+		CD39829C28355AE500E46A9D /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD39829B28355AE500E46A9D /* SummaryView.swift */; };
+		CD3982A02836443200E46A9D /* DefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD39829F2836443200E46A9D /* DefaultView.swift */; };
+		CD9EC2B8282FF20F00AFE302 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9EC2B7282FF20F00AFE302 /* SplashScreen.swift */; };
+		CD9EC2BC28311DAD00AFE302 /* NewTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9EC2BB28311DAD00AFE302 /* NewTripView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3902CE162837327400AB95CE /* ExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
+		3902CE182837360F00AB95CE /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		394887B8282B870A0008B340 /* Travoila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travoila.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		394887BB282B870A0008B340 /* TravoilaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravoilaApp.swift; sourceTree = "<group>"; };
+		394887BD282B870A0008B340 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		394887BF282B870A0008B340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		394887C2282B870A0008B340 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		394887CA282B872E0008B340 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		39B6F6082834A14100F8B78C /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		39B6F60A2834BB8600F8B78C /* Allocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allocation.swift; sourceTree = "<group>"; };
+		CD39829B28355AE500E46A9D /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		CD39829F2836443200E46A9D /* DefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultView.swift; sourceTree = "<group>"; };
+		CD9EC2B7282FF20F00AFE302 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		CD9EC2BB28311DAD00AFE302 /* NewTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTripView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		394887B5282B87090008B340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		394887AF282B87090008B340 = {
+			isa = PBXGroup;
+			children = (
+				394887BA282B870A0008B340 /* Travoila */,
+				394887B9282B870A0008B340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		394887B9282B870A0008B340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				394887B8282B870A0008B340 /* Travoila.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		394887BA282B870A0008B340 /* Travoila */ = {
+			isa = PBXGroup;
+			children = (
+				39B6F6072834A12D00F8B78C /* Model */,
+				394887C9282B87130008B340 /* View */,
+				394887BB282B870A0008B340 /* TravoilaApp.swift */,
+				394887BD282B870A0008B340 /* ContentView.swift */,
+				394887BF282B870A0008B340 /* Assets.xcassets */,
+				394887C1282B870A0008B340 /* Preview Content */,
+			);
+			path = Travoila;
+			sourceTree = "<group>";
+		};
+		394887C1282B870A0008B340 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				394887C2282B870A0008B340 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		394887C9282B87130008B340 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD9EC2B7282FF20F00AFE302 /* SplashScreen.swift */,
+				394887CA282B872E0008B340 /* OnBoardingView.swift */,
+				CD39829F2836443200E46A9D /* DefaultView.swift */,
+				CD9EC2BB28311DAD00AFE302 /* NewTripView.swift */,
+				CD39829B28355AE500E46A9D /* SummaryView.swift */,
+				3902CE162837327400AB95CE /* ExpenseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39B6F6072834A12D00F8B78C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39B6F6082834A14100F8B78C /* Trip.swift */,
+				39B6F60A2834BB8600F8B78C /* Allocation.swift */,
+				3902CE182837360F00AB95CE /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		394887B7282B87090008B340 /* Travoila */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394887C6282B870A0008B340 /* Build configuration list for PBXNativeTarget "Travoila" */;
+			buildPhases = (
+				394887B4282B87090008B340 /* Sources */,
+				394887B5282B87090008B340 /* Frameworks */,
+				394887B6282B87090008B340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Travoila;
+			productName = Travoila;
+			productReference = 394887B8282B870A0008B340 /* Travoila.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		394887B0282B87090008B340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					394887B7282B87090008B340 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 394887B3282B87090008B340 /* Build configuration list for PBXProject "Travoila" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 394887AF282B87090008B340;
+			productRefGroup = 394887B9282B870A0008B340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				394887B7282B87090008B340 /* Travoila */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		394887B6282B87090008B340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394887C3282B870A0008B340 /* Preview Assets.xcassets in Resources */,
+				394887C0282B870A0008B340 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		394887B4282B87090008B340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3902CE192837360F00AB95CE /* Expense.swift in Sources */,
+				CD9EC2B8282FF20F00AFE302 /* SplashScreen.swift in Sources */,
+				394887CB282B872E0008B340 /* OnBoardingView.swift in Sources */,
+				394887BE282B870A0008B340 /* ContentView.swift in Sources */,
+				394887BC282B870A0008B340 /* TravoilaApp.swift in Sources */,
+				3902CE172837327400AB95CE /* ExpenseView.swift in Sources */,
+				39B6F6092834A14100F8B78C /* Trip.swift in Sources */,
+				CD9EC2BC28311DAD00AFE302 /* NewTripView.swift in Sources */,
+				39B6F60B2834BB8600F8B78C /* Allocation.swift in Sources */,
+				CD39829C28355AE500E46A9D /* SummaryView.swift in Sources */,
+				CD3982A02836443200E46A9D /* DefaultView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		394887C4282B870A0008B340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		394887C5282B870A0008B340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		394887C7282B870A0008B340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Travoila/Preview Content\"";
+				DEVELOPMENT_TEAM = FHH33PP3YM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = christian.Travoila;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		394887C8282B870A0008B340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Travoila/Preview Content\"";
+				DEVELOPMENT_TEAM = FHH33PP3YM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = christian.Travoila;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		394887B3282B87090008B340 /* Build configuration list for PBXProject "Travoila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394887C4282B870A0008B340 /* Debug */,
+				394887C5282B870A0008B340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394887C6282B870A0008B340 /* Build configuration list for PBXNativeTarget "Travoila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394887C7282B870A0008B340 /* Debug */,
+				394887C8282B870A0008B340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 394887B0282B87090008B340 /* Project object */;
+}
